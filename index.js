@@ -16,6 +16,9 @@ nextISSTimesForMyLocation((error, passTimes) => {
   printPassTimes(passTimes);
 });
 
+module.exports = {printPassTimes};
+
+
 // const {fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes} = require("./iss");
 
 // fetchMyIP((error, ip) => {
